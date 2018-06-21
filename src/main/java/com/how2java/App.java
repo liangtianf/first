@@ -9,7 +9,7 @@ public class App
     public static void main( String[] args )
     {
 
-        System.out.println( "Hello W!" );
+        System.out.println( "Hello World!" );
         try{
             Class.forName("com.mysql.jdbc.Driver");
             System.out.println("驱动初始化成功");
